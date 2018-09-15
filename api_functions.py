@@ -21,7 +21,7 @@ def loginToSpotify(mail, haslo, authorization_url):
 
     return authorization_response
 
-def connectToSpotifyApi(apiUrl, oauth):
+def get_result_from_api_call(apiUrl, oauth):
 
     dictSpotify = {'Song' : [], 'Album' : [], 'Artist' : []}
 
